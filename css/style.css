@@ -244,6 +244,10 @@ footer.footer .right-left-navi {
     border-bottom: solid 1px grey;
 }
 
+.main-container .chat-details-section a {
+    color: black;
+}
+
 .main-container .chat-details-section .chat .chat-heading-paragraph-wrapper {
     width: 59%;
     padding: 40px 31px;
@@ -487,11 +491,11 @@ footer.footer .right-left-navi {
     background-color: #170f11de;
 }
 
-.new-profile-main-container .star-logo {
+.new-profile-main-container .add-fav-btn-wrap {
     position: relative;
 }
 
-.new-profile-main-container .star-logo .star {
+.new-profile-main-container .add-fav-btn-wrap .add-fav {
     position: absolute;
     right: 45px;
     bottom: -48px;
@@ -673,8 +677,6 @@ footer.footer .right-left-navi {
 
 
 /*pop up css*/
-
-.popup-section {}
 
 .popup-wrapper {
     position: fixed;
