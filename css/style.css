@@ -1,0 +1,713 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    max-width: 920px;
+    margin: 0 auto;
+    border: solid #8080800f;
+}
+
+.header-wrapper {
+    background-color: #1caf8b;
+}
+
+.both-div-wrapper {
+    height: 94px;
+    background-color: #1caf8b;
+}
+
+.top-network-wrapper {
+    background-color: #368f79;
+    padding: 6px;
+}
+
+.sign-img-wrapper {
+    text-align-last: end;
+    padding: 4px 15px;
+}
+
+.top-nav {
+    width: 19px;
+    margin-left: 5px;
+}
+
+.nav-clock {
+    color: #ffffffb3;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.header .battery {
+    display: inline-block;
+}
+
+.main-container .menu-and-searchbar-wrapper {
+    display: flex;
+    padding: 2px 24px;
+}
+
+.main-container .header .three-lines-wrap {
+    margin-left: 23px;
+}
+
+.main-container .header .menu-wrapper {}
+
+.header .search-input-wrapper {
+    /* padding: 15px 84px;*/
+}
+
+.header .input-search {
+    padding: 5px 26px;
+    font-size: 28px;
+    margin-left: 89px;
+    display: none;
+    margin-top: 3px;
+}
+
+
+/*.flex-one {
+    flex: 1;
+}
+
+.flex-two {
+    flex: 3;
+}
+
+.flex-three {
+    flex: 1;
+}*/
+
+.btn {
+    background-color: transparent;
+    border: none;
+}
+
+.main-container .header .searchbar-wrapper {
+    /* padding: 16px 10px 0px;*/
+}
+
+.main-container .header #search {
+    display: inline-block;
+    margin-bottom: 3px;
+    width: 68px;
+    margin-right: 8px;
+}
+
+.header ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-container .header .heading ul li {
+    display: inline;
+    padding: 1px 3rem;
+    position: relative;
+}
+
+.main-container .header .heading {
+    position: relative;
+}
+
+.main-container .header .heading a {
+    text-decoration: none;
+    font-size: 2rem;
+    margin-top: 32px;
+    display: inline-block;
+}
+
+.rechtangle-bottom {
+    border-bottom: solid rgb(235, 233, 233) 5px;
+    padding-bottom: 14px;
+}
+
+.grey {
+    color: rgb(236, 220, 220);
+}
+
+.white {
+    color: white;
+}
+
+.notify {
+    background-color: red;
+    color: white;
+}
+
+.main-container .header .notification {
+    padding: 8px;
+    border: none;
+    border-radius: 21%;
+    position: absolute;
+    top: 36px;
+    right: -12px;
+}
+
+
+/**/
+
+
+/*footer*/
+
+footer.footer {
+    background-color: black;
+    border-top: solid blue 2px;
+}
+
+footer.footer .navigation-sign-wrapper {
+    display: flex;
+    padding: 9px 0px 0px 102px;
+}
+
+footer.footer .navigation-sign-wrapper .navigation {
+    width: 33%;
+}
+
+footer.footer .right-left-navi {
+    display: block;
+    margin-top: 10px;
+}
+
+
+/* calls details wrapper css*/
+
+.main-container .calls-details-section {
+    background-color: rgb(247, 241, 241);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.calls-details-section .calls-info-wrapper {
+    height: 250px;
+    width: 19rem;
+    /* margin: 1px 1px -1px 1px; */
+    border: solid white 1px;
+    position: relative;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.main-container .calls-details-section .calls-info-wrapper .dp {
+    max-width: 100%;
+    /*max-height: 100%;*/
+    display: block;
+    height: 249px;
+}
+
+.main-container .calls-details-section .calls-info-wrapper .calls-three-dots {
+    position: absolute;
+    top: 7px;
+    right: 16px;
+    background-color: transparent;
+    border: none;
+}
+
+.main-container .calls-details-section .calls-info-wrapper .name-wrapper {
+    padding: 13px 23px;
+}
+
+.main-container .calls-details-section .calls-info-wrapper p.name {
+    color: rgb(238, 232, 232);
+    font-size: 23px;
+}
+
+.main-container .calls-details-section .calls-info-wrapper .name-date-sign-wrapper {
+    width: 100%;
+    background-color: #0a0b0a70;
+    position: absolute;
+    bottom: 0px;
+}
+
+.main-container .calls-details-section .calls-info-wrapper .name-date-sign-wrapper .down-arrow {
+    position: absolute;
+    /* top: 4px; */
+    right: 9px;
+    bottom: 14px;
+}
+
+.main-container .calls-details-section .calls-info-wrapper .date {
+    color: rgb(235, 230, 230);
+}
+
+
+/*chat details section css*/
+
+.main-container .chat-details-section {}
+
+.main-container .chat-details-section .chat {
+    display: flex;
+    padding: 17px 0px 2px 9px;
+    border-bottom: solid 1px grey;
+}
+
+.main-container .chat-details-section .chat-img-wrapper {}
+
+.main-container .chat-details-section .chat .first-profile-pic {}
+
+.main-container .chat-details-section .chat .chat-heading-paragraph-wrapper {
+    width: 59%;
+    padding: 40px 31px;
+}
+
+.main-container .chat-details-section .chat .chat-heading-paragraph-wrapper .name-heading {
+    font-size: 30px;
+}
+
+.main-container .chat-details-section .chat .chat-heading-paragraph-wrapper .personal.msg {
+    font-size: 24px;
+    margin: 4px 3px 1px;
+    color: grey;
+}
+
+.main-container .chat-details-section .chat .chat-date-wrapper {
+    padding: 43px 0px 5px 82px;
+    position: relative;
+}
+
+.main-container .chat-details-section .chat .chat-date-wrapper .chat-time {
+    text-align: end;
+    color: grey;
+    margin-right: 34px;
+}
+
+.main-container .chat-details-section .chat .chat-date-wrapper .unread-msg {
+    text-align: center;
+    margin: 11px 0px 0px 29px;
+    padding: 5px 1px;
+    width: 23px;
+    font-size: 11px;
+    border-radius: 15%;
+}
+
+.main-container .chat-details-section .chat .tick {
+    color: #1caf8b;
+    font-size: 27px;
+    margin-right: 6px;
+}
+
+.main-container .chat-details-section .chat .message-sign {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    display: block;
+}
+
+.main-container .click-for-new-msg {
+    position: relative;
+}
+
+.main-container .click-for-new-msg .message-sign {
+    position: absolute;
+    right: 32px;
+    bottom: 13px;
+    width: 77px;
+}
+
+
+/*group-details-section*/
+
+.main-container .group-details-section {}
+
+.main-container .group-details-section .group-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-container .group-details-section .group-wrapper .groups {
+    height: 340px;
+    width: 28rem;
+    margin-left: 1px;
+    position: relative;
+    margin-inline-end: auto;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.main-container .group-details-section .group-wrapper .groups .group-img {
+    width: 100%;
+    height: 100%;
+}
+
+.main-container .group-details-section .group-wrapper .groups .group-text-wrapper {
+    background-color: #131212ad;
+    position: absolute;
+    bottom: -4px;
+    left: 0px;
+    width: 100%;
+    padding-bottom: 41px;
+}
+
+.main-container .group-details-section .group-wrapper .groups .group-text {
+    color: #ecdfdf;
+    font-size: 19px;
+    padding: 43px 2px 0px 34px;
+}
+
+
+/*Messege section  css*/
+
+.main-container .Message-details-section {
+    padding: 18px 59px;
+}
+
+.main-container .header .name-online-div {
+    display: flex;
+    padding: 28px 28px;
+    background-color: #1caf8b;
+}
+
+.main-container .header .back-arraow-call-sign-wrapper {
+    padding: 15px 15px 2px 39px;
+}
+
+.main-container .header .name-online-div .three-dots {}
+
+.main-container .header .name-online-div .call {
+    display: inline-block;
+    padding-left: 29px;
+    margin-right: 36px;
+}
+
+.main-container .header .name-online-div .online {
+    letter-spacing: 2px;
+}
+
+.text-white {
+    color: white;
+}
+
+.font-weight {
+    font-weight: 100;
+}
+
+.main-container .Message-details-section .first-person-msg-wrapper {
+    display: flex;
+    margin: 9px 5px 20px 2px;
+}
+
+.dp {
+    margin: 50px 25px;
+}
+
+.main-container .Message-details-section .msg {
+    font-size: 29px;
+    display: inline;
+}
+
+.main-container .Message-details-section .msg-text-wrapper {
+    background-color: #8080803f;
+    border-radius: 16px;
+    margin-top: 44px;
+    padding: 11px 24px;
+}
+
+.main-container .Message-details-section .second-person-msg-wrapper {
+    display: flex;
+    margin: 9px 5px;
+    flex-direction: row-reverse;
+}
+
+.main-container .Message-details-section .dp-img-wrapper {
+    width: 20%;
+}
+
+.main-container .Message-details-section .chat-time {
+    font-size: 19px;
+    margin-left: 8px;
+    color: #808080c4;
+}
+
+.main-container .Message-details-section .msg-dp-second {
+    display: block;
+    margin-top: 46px;
+    width: 92px;
+}
+
+
+/*input section css*/
+
+.main-container .input-section .input-details-wrapper {
+    background-color: #80808047;
+    display: flex;
+    margin-top: 90px;
+}
+
+.main-container .input-section .input-details-wrapper .emoji-wrapper {
+    width: 8%;
+    /* background-color: red; */
+    padding: 19px 33px;
+    border-right: solid #80808063;
+}
+
+.main-container .input-section .input-details-wrapper .input {
+    font-size: 24px;
+    padding: 26px 48px;
+    /*  width: 28em;*/
+    background-color: #80808000;
+    border: none;
+}
+
+.main-container .input-section .input-wrapper {
+    position: relative;
+    width: 75%;
+}
+
+.main-container .input-section .input-wrapper .attech {
+    position: absolute;
+    right: -3px;
+    top: 16px;
+}
+
+.main-container .input-section .input-wrapper .send {
+    position: absolute;
+    right: 60px;
+    top: 20px;
+}
+
+
+/*new profile css section*/
+
+.new-profile-main-container {
+    max-width: 920px;
+    margin: 0 auto;
+    border: solid #80808036;
+}
+
+.new-profile-main-container .header .full-dp-wrapper {
+    background-image: url(../images/new-profile-dp.png);
+    height: 568px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.new-profile-main-container .header .full-dp-wrapper .top-network-wrapper {
+    background-color: #170f11de;
+}
+
+.new-profile-main-container .star-logo {
+    position: relative;
+}
+
+.new-profile-main-container .star-logo .star {
+    position: absolute;
+    right: 45px;
+    bottom: -48px;
+    width: 121px;
+}
+
+.new-profile-main-container .star-logo .star .star-btn {
+    width: 104px;
+}
+
+.new-profile-main-container .name-wrapper {
+    width: 52%;
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 22em;
+    padding-right: 72px;
+}
+
+.new-profile-main-container .name-wrapper .name {
+    font-size: 66px;
+    color: white;
+    font-weight: 100;
+}
+
+.new-profile-main-container .status-wrapper {
+    border-bottom: solid grey 1px;
+    padding: 52px 52px 20px 49px;
+    color: #130808d9;
+}
+
+.new-profile-main-container .username-wrapper {
+    display: flex;
+    border-bottom: solid grey 1px;
+    color: #130808d9;
+    padding: 18px 25px;
+}
+
+.new-profile-main-container .status-wrapper .status,
+.media {
+    font-size: 40px;
+    color: #03bb89;
+    display: inline-block;
+    margin: 0px 42px 0px 1px;
+    font-weight: 600;
+}
+
+.new-profile-main-container .status-wrapper .date {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.new-profile-main-container .status-wrapper .status-text {
+    margin: 14px 2px 2px 0px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.new-profile-main-container .username-wrapper .user-logo {
+    width: 16%;
+}
+
+.new-profile-main-container .username-wrapper .name {
+    font-size: 39px;
+    margin-top: 2px;
+}
+
+.new-profile-main-container .username-wrapper .username {
+    font-size: 25px;
+}
+
+.new-profile-main-container .username-wrapper .user-logo img {
+    margin: 18px 18px;
+}
+
+.new-profile-main-container .media-wrapper .media-picture {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.new-profile-main-container .media-wrapper .media {
+    padding: 19px 37px 32px 14px;
+}
+
+.new-profile-main-container .media-wrapper .media-img-wrap {
+    /* height: 74px; */
+    width: 131px;
+    margin-right: 99px;
+}
+
+.new-profile-main-container .media-wrapper .media-img-wrap .m-img {
+    height: 202px;
+    width: 219px;
+    margin-left: 12px;
+}
+
+.new-profile-main-container .footer {
+    border-top: none;
+}
+
+
+/*slide menu css starts*/
+
+.slide-menu-container {
+    max-width: 920px;
+    margin: 0 auto;
+    border: solid #80808036;
+}
+
+.slide-menu-container .header .slide-menu-dp-wrapper {
+    background-image: url(../images/slide-menu-dp.png);
+    height: 568px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.slide-menu-container .header {
+    margin-bottom: 52px;
+}
+
+.slide-menu-container .header .slide-menu-dp-wrapper .top-network-wrapper {
+    background-color: #170f117d;
+}
+
+.slide-menu-container .header .slide-menu-dp-wrapper .name-wrapper .name {
+    color: white;
+    font-size: 38px;
+    position: absolute;
+    bottom: 40px;
+    left: 59px;
+    font-family: monospace;
+}
+
+.slide-menu-container .slide-menu-details-section {
+    border-bottom: solid 1px grey;
+}
+
+.slide-menu-container .slide-menu-details-section .logo-name-wrapper {
+    display: flex;
+    padding: 19px 3px;
+}
+
+.all-logo-name-section {
+    border-bottom: solid #a4a1a138;
+    padding: 37px 0px;
+}
+
+.slide-menu-container .slide-menu-details-section .all-logo-name-section .slide-logo-wrap {
+    padding-left: 63px;
+}
+
+.slide-menu-container .slide-menu-details-section .all-logo-name-section .slide-logo-name-wrap {
+    padding-left: 57px;
+}
+
+.slide-menu-container .slide-menu-details-section .all-logo-name-section .slide-logos {
+    width: 45px;
+}
+
+.slide-menu-container .slide-menu-details-section .all-logo-name-section .logo-name {
+    font-size: 33px;
+}
+
+.slide-menu-container .slide-menu-details-section .slide-about-feedback-wrap {
+    height: 125px;
+    padding: 25px 0px 29px 43px;
+}
+
+.slide-menu-container .slide-menu-details-section .slide-about-feedback-wrap .about-feedback {
+    font-size: 32px;
+    margin-top: 26px;
+}
+
+
+/*pop up css*/
+
+.popup-section {}
+
+.popup-wrapper {
+    position: fixed;
+    top: 0;
+    right: 95px;
+    left: 0;
+    bottom: 0;
+}
+
+.popup-wrapper .slide-menu-container {
+    background-color: white;
+}
+
+.popup-wrapper .slide-menu-container .slide-menu-details-section {
+    border-bottom: none;
+}
+
+.popup-wrapper .footer {
+    height: 102px;
+    background-color: black;
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+.popup-section .footer {
+    border-top: none;
+}
+
+.popup-section .whole-page-wrapper {
+    opacity: 72%;
+}
+
+
+/*
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}*/
