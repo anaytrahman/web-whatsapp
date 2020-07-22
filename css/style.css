@@ -52,10 +52,13 @@
     margin-left: 23px;
 }
 
-.main-container .header .menu-wrapper {}
+a {
+    text-decoration: none;
+}
 
 .header .search-input-wrapper {
     /* padding: 15px 84px;*/
+    margin-left: auto;
 }
 
 .header .input-search {
@@ -241,10 +244,6 @@ footer.footer .right-left-navi {
     border-bottom: solid 1px grey;
 }
 
-.main-container .chat-details-section .chat-img-wrapper {}
-
-.main-container .chat-details-section .chat .first-profile-pic {}
-
 .main-container .chat-details-section .chat .chat-heading-paragraph-wrapper {
     width: 59%;
     padding: 40px 31px;
@@ -361,7 +360,9 @@ footer.footer .right-left-navi {
     padding: 15px 15px 2px 39px;
 }
 
-.main-container .header .name-online-div .three-dots {}
+.main-container .header .call-btn-wrap {
+    margin-left: auto;
+}
 
 .main-container .header .name-online-div .call {
     display: inline-block;
@@ -663,6 +664,11 @@ footer.footer .right-left-navi {
 .slide-menu-container .slide-menu-details-section .slide-about-feedback-wrap .about-feedback {
     font-size: 32px;
     margin-top: 26px;
+    display: block;
+}
+
+.slide-menu-container a {
+    color: black;
 }
 
 
